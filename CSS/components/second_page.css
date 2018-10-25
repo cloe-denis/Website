@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/buton.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/menu.css");
+@import url("components/second_page.css")
+@import url("CSS/style.css")
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
