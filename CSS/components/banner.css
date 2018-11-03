@@ -22,3 +22,19 @@
 	padding-top: 10px;
 	
 }
+
+@media (max-width: 1020px) {
+	.banner h1 {
+		font-size: 35px;
+		padding: 0px;
+		padding-top: 150px;
+	}
+
+		.banner h2 {
+		font-size: 25px;
+		padding: 0px;
+	}
+
+	
+
+}

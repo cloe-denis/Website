@@ -8,7 +8,7 @@
 @import url("components/menu.css");
 
 body {
-	font-family: 'Roboto', serif;
+	font-family: 'Montserrat', serif;
 	font-size: 18px;
 	margin: 0px;
 	padding: 0px;
@@ -30,12 +30,6 @@ a {
 	color: #393e46;
 	font-family: "Montserrat";
 	text-align: center;
-}
-
-#start {
-	width: 700px;
-	margin: 50px auto;
-
 }
 
 #LK {

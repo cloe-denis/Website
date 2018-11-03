@@ -4,10 +4,12 @@
 	justify-content: center;
   	align-content: space-between;
   	word-spacing: 2px; 
+  	flex-grow: 1;
 }
 
 .card {
 	display: flex;
+	flex: wrap;
 	align-items: center;
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.8);
 	flex-direction: column;
@@ -16,8 +18,8 @@
 	flex-basis: 30px;
 	padding-bottom: 8px;
 	flex-grow: 1;
-	width: 90px;
-	height: 370px;
+	width: 160px;
+	height: 390px;
 	font-family: "Montserrat";
 	font-size: 16px;
 	color: #393e46;
@@ -43,7 +45,6 @@
 .card h3 {
 	font-size: 22px;
 	flex-grow: 1;
-	height: 10px;
 }
 
 #footer {
@@ -55,19 +56,34 @@
 	text-align:center;
 	height: 2%;
 	border-radius: 1em;
-}
+} 
 
 #footer div a i {
 	padding: 18px;
+
 }
 
+@media (max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 300px;
+  }
+}
 
-
-
-
-
-
-
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
 
 
 
