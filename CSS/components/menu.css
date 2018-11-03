@@ -17,6 +17,17 @@
    border-bottom: 1px solid #bcbab8;
 }
 
+@media screen and (max-width: 700px){
+  .menu {
+    display: block;
+  }
+
+ul {
+  display:none;
+}  
+}
+
+
 #menu, #menu ul {
   padding:12px;
   margin:0;
